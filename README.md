@@ -1,6 +1,6 @@
 # TS
 
-
+学习与记录
 
 # Git
 
@@ -28,9 +28,13 @@ git remote -v
 第一次把本地的 main 分支上传到远程仓库 origin，并建立跟踪关系。
 git push -u origin main
 
+查看当前 Git 跟踪文件（已加入上传范围）
+git ls-files
 
+查看当前有哪些文件准备上传
+git status
 
- 
-
+只取消跟踪，保留本地文件（推荐）
+git rm --cached Git_Push.cmd
 ```
 
