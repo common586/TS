@@ -1,1 +1,36 @@
-"# TS" 
+# TS
+
+
+
+# Git
+
+```
+在当前目录创建一个新的 Git 仓库，让这个文件夹可以被 Git 管理。
+git init
+
+把文件加入 Git 的暂存区（Staging Area），准备下一次提交。
+git add .
+
+把暂存区（staging area）里的文件正式保存成一个 Git 版本，并给这个版本添加说明 "first commit"。
+git commit -m "first commit"
+
+把当前分支名称强制改成 main。
+git branch -M main
+
+修改本地 Git 仓库中，名为 origin 的远程仓库地址。
+git remote set-url origin https://github.com/common586/TS.git
+
+管理远程仓库：
+git remote -v
+  origin  https://github.com/common586/TS.git (fetch)  拉代码从这个仓库
+  origin  https://github.com/common586/TS.git (push)   推代码也到这个仓库 
+ 
+第一次把本地的 main 分支上传到远程仓库 origin，并建立跟踪关系。
+git push -u origin main
+
+
+
+ 
+
+```
+
