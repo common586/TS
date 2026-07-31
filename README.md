@@ -17,6 +17,9 @@ git commit -m "first commit"
 把当前分支名称强制改成 main。
 git branch -M main
 
+新建远程仓库
+git remote add origin https://github.com/common586/TS.git
+
 修改本地 Git 仓库中，名为 origin 的远程仓库地址。
 git remote set-url origin https://github.com/common586/TS.git
 
