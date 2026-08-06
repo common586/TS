@@ -49,6 +49,6 @@ git fetch origin  只下载远程仓库最新信息，不修改你的代码。
 
 git reset --hard origin/main  强制让当前分支完全等于远程 main。
 
-
+git reset --hard 6d4f73e07c9234b6192f51c949326908bf51befc 回跳版本 
 ```
 
