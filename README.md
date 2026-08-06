@@ -39,5 +39,16 @@ git status
 
 只取消跟踪，保留本地文件（推荐）
 git rm --cached Git_Push.cmd
+
+git pull --rebase 先把远程最新代码拉下来，然后把你的本地提交重新放到远程最新代码后面。
+但是易语言不支持 
+
+git rebase --abort  取消正在进行的 rebase 操作，恢复到 rebase 开始之前的状态。
+
+git fetch origin  只下载远程仓库最新信息，不修改你的代码。
+
+git reset --hard origin/main  强制让当前分支完全等于远程 main。
+
+
 ```
 
